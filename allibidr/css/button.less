@@ -1,0 +1,43 @@
+//main: style.less
+
+.btn {
+    
+    padding: 32px 57px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;    
+    color: #FFFFFF;
+    background: @button;
+    border-radius: 10px;
+    border: none;
+    z-index: 20;
+    box-shadow: -3px 3px 0px @buttonColor;
+    transition: all 200ms ease-in-out;
+    // &:after{
+    //     content: '';
+    //     position: absolute;
+    //     width: 100%;
+    //     height: 100%;
+    //     top: 2px;
+    //     right: 3px;
+    //     z-index: 1;
+    //     background: #DD782F;
+    //     border-radius: 10px;
+    // }
+    &:hover{
+        transition: all 200ms ease-in-out;
+        box-shadow: none;
+        box-sizing: border-box;
+        border: 1px solid @buttonColor;
+        border-radius: 10px;
+        
+
+    }
+
+    &:active{
+        transition: all 200ms ease-in-out;
+        background: linear-gradient(180deg, #FEBC59 0%, #F19C5E 91.15%);
+    }
+}

@@ -1,0 +1,46 @@
+//compress: true
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: @bg;
+}
+
+.container{
+    max-width: 1225px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.wrapper{    
+    position: relative;
+    max-width: 1980px;
+    margin: 0 auto;
+}
+p, a, h1, h2, h3, h4, h5, h6, input, span, button{
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: @white;
+    text-decoration: none;
+}
+h2{
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 54px;            
+    
+}
+
+
+
+@import url(var.less);
+@import url(media-screen.less);
+@import url(button.less);
+@import url(header.less);
+@import url(benefits.less);
+
+
+@import url(what-are-we-do.less);
+@import url(footer.less);

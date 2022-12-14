@@ -1,0 +1,70 @@
+// main: style.less
+
+.benefits{
+    background-image: url(../img/benefits/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    height: 100%;
+    .content{
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+    }
+    &_left{
+        align-items: center;
+        img{
+            max-width: none;
+        }
+    }
+    &_right{
+        display: block;
+        margin: 155px 0 250px;
+        h2{
+            line-height: 51px;
+            margin-bottom: 45px;
+        }
+        h4{
+            margin: 22px 0 62px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 36px;
+            color: @hrYellow;            
+        }
+        p{
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 36px;
+            margin-bottom: 74px;
+        }
+    }
+
+    &_top{
+        position: absolute;
+        display: flex;
+        top: 78%;
+        left: 35%;
+        z-index: 3;
+        width: 600px;
+
+        h6{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            padding: 25px 22px;
+            background: linear-gradient(122.61deg, rgba(252, 254, 255, 0.3) 30.49%, rgba(252, 254, 255, 0.1) 74.05%);
+            backdrop-filter: blur(20px);        
+            border-radius: 10px;
+            align-items: center;
+            text-align: center;
+        }
+        img{
+            position: absolute;
+            top: 120%;left: 40%;
+        }
+        p{
+            position: absolute;
+            top: 70%;left: 60%;
+        }
+    }
+}
